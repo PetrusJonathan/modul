@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Staatliches&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{box-sizing:border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: blueviolet;
+    font-family: 'Piedra', cursive;
+    font-family: 'Staatliches', cursive;
+
+}
+
+.arrow_left, .arrow_right{
+    font-size: 4rem;
+    color: red;
+    text-shadow: rgba(0,0,0,0.600);
+    cursor: pointer;
+}
+.headline{
+    width: 100vw;
+    height: auto;
+    padding: 40px 10%;
+}
+.headline img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.slider{
+    width: 100vw;
+    height: auto;
+    overflow-y: scroll;
+    padding: 0 10%;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10%;
+
+
+}
+.menu{
+    width: 100vw;
+    height: auto;
+    overflow-x: scroll;
+}
+.scrollArea{
+    width: 200vw;
+    height: 8vh;
+    background-color: seagreen;
+    padding: 0 10vw;
+}
+.menuItemContainer{
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    color: springgreen;
+}
+.footer{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
